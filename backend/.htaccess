@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^store$ store.php
+RewriteRule ^data$ backend.php
+RewriteRule ^thank$ thank.php
+
+RewriteRule ^en$ index-en.php
+RewriteRule ^thank_en$ thank-en.php
